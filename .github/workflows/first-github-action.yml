@@ -1,0 +1,9 @@
+name: Run shell Commands
+on: [push]
+
+jobs:
+  run-shell-command:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Echo a String
+        run: echo "Hello DevSecOps Engineer"
